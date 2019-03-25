@@ -164,6 +164,7 @@ namespace captcha_label_tool
             if (pnow != 1)
             {
                 pnow -= 2;
+                progressBar1.Value--;
                 SwitchToNextPic();
             }
             else
